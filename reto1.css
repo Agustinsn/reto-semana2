@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    font-family: Arial;
+    font-weight: lighter;
+}
+h2{
+    text-align: center;
+    font-family: 'Arial';
+}
+form{
+    text-align: center;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-family: 'Franklin Gothic Medium';
+    
+}
+input[type=submit]{
+    font-weight: bold;
+    width: 125px;
+    height: 40px;
+}
+input{
+    font-size: 17px;
+    padding-top: 12px 10px;
+}
+
