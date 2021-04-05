@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2 Semana 2 CodiGo</title>
+    <link rel="stylesheet" href="reto2.css">
+</head>
+<body>
+    <header><h1>Registrese</h1></header>
+    <main>
+        <div>
+            <form class="form">
+                <label for="Nombres"></label> Nombres <br>
+                <input type="text" size="30"  minlength="6" required>  <br> <br>
+                <label for="Edad">Edad</label> <br>  
+                <input type="number"  size="30" max="120" min="0"><br> <br>
+                <label for="Income">Income</label><br>
+                <input type="text" size="30" minlength="6" required> <br> <br>
+                <label for="Info">Mas información</label> <br> 
+                <textarea rows="2" cols="23" minlength="6"></textarea> <br><br>
+                <label for="genero">Genero</label> <br>
+                <input type="radio" name="genero" value="M">Masculino <br>
+                <input type="radio" name="genero" value="F">Femenino <br>
+                <input type="radio" name="genero" value="NC">Otro<br> <br>
+                <label for="plan">Plan de suscripcion</label>
+            <Select>
+                <option selected disabled>Elija un plan...</option>
+                <option value="1m">1 MES</option>
+                <option value="3m">3 MESES</option>
+                <option value="6m">6 MESES</option>
+                <option value="12m">12 MESES</option>
+            </Select> <br> <br>
+                <input type="checkbox" value="autos">Suscribirse al correo <br><br>
+                <input type="submit" value="Ingresar">
+            </form>
+        </div>
+        
+    </main>
+</body>
+</html>
